@@ -857,7 +857,7 @@ table#t1 tr > td:first-child {
   min-height: 502px;
   width: auto;
   background: url("../images/section-5-background-left.png") no-repeat, url("../images/section-5-background-right.png") no-repeat;
-  background-position: left center, 85% 10%;
+  background-position: left center, 86.9% 0%;
   position: relative;
   z-index: 0; 
 }
@@ -865,7 +865,7 @@ table#t1 tr > td:first-child {
 .section-5-top {
   font-family: EuropeExtBold, sans-serif;
   text-align: center;
-  padding-top: 0%;
+  padding-top: 1.3%;
   padding-bottom: 1.3%;
   width: auto;
   height: auto;
