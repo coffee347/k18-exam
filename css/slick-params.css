@@ -54,7 +54,7 @@
     display: block;
     width: 100%;
     padding: 0;
-    margin: 10px;
+    margin: 0 0 10px 20px;
     list-style: none;
     text-align: left;
     z-index: 7;
@@ -67,22 +67,25 @@
 .comment-wrapper {
    background-color: hsla(287, 77%, 0%, 0.4);
    color: white;
-   height: 28%;
-   width: 78.6%;
+   height: 28.3%;
+   width: 76%;
    z-index: 4;
    position: absolute;
    bottom: 35px;
-   font-size: 30px;
    padding-left: 25px;
-   padding-top: 20px;
-   padding-bottom: 11px;
-   font-family: EuropeExtNormal, sans-serif;
 } 
 
+.comments-line {
+  padding-top: 35px;
+  line-height: 1em;
+   font-family: EuropeExtNormal, sans-serif;
+   font-size: 30px;
+}
+
 .comments-subline {
-  padding-top: 15px;
-  font-size: 24px;
+  padding-top: 17px;
   font-family: EuropeExtBold, sans-serif;
+  font-size: 24px;
 }
 
 .slick-dots li {
@@ -90,7 +93,7 @@
     display: inline-block;
     width: 32px;
     height: 12px;
-    margin: 0 5px;
+    margin: 0 3px;
     padding: 0;
     background-color: white;
     color: white;
@@ -103,7 +106,7 @@
     display: block;
     width: 20px;
     height: 20px;
-    padding: 5px;
+    padding: 8px;
     cursor: pointer;
     color: transparent;
     border: 0;
